@@ -59,7 +59,7 @@ def process_files():
             print(f"Skipping unsupported file type: {filename}")
 
 def main():
-    url = 'http://google.com'
+    url = 'http://google.com'  #Need to try with our URL
     driver = setup_driver()
     try:
         download_files(driver, url)
